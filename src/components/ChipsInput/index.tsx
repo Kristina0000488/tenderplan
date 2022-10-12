@@ -17,7 +17,7 @@ function splitTags(rawTags: string): string[] {
   const tags = [] as string[];
 
   for (let i = 0; i < rawTags.length; i++) {
-    const char = rawTags[i];
+    const char     = rawTags[i];
     const prevChar = rawTags[i - 1] === ",";
 
     if (storage.quoteOpen) {
@@ -165,6 +165,7 @@ function ChipsInput(props: ChipsInputProps) {
           }}
         />
         <button
+          className="btn"
           onClick={() => {
             setValuesArr(filteredArr);
             saveEditValues(filteredArr);

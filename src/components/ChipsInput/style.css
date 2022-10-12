@@ -25,3 +25,9 @@ input[type="text"] {
 .hoverChip {
     background-color: #2738f042 !important;
 }
+
+.btn {
+    background-color: #ffffffbf;
+    border: none;
+    border-radius: 15px;
+}
