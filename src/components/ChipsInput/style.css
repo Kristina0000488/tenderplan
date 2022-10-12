@@ -1,0 +1,27 @@
+.ChipsInput {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-radius: 10px;
+    background-color: #80808042;
+}
+
+input[type="text"] {
+    border: none !important;
+    outline: none !important;
+    background-color: transparent;
+}
+
+.chip {
+    background-color: #8eb8ef42;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 3px 0 0;
+}
+
+.hoverChip {
+    background-color: #2738f042 !important;
+}
